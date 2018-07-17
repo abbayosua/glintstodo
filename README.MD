@@ -31,4 +31,4 @@ This file is a documentation of Glints To-Do App, A simple app that make your li
 
 - Will Added Electric Shock (Connected with a Wrist Band) When the Time only left 5 Minutes
 - Will Added Metalica Alarm Sound
-
+- Time Machine Module, When Some Activities is Skipped up (Time Travel Machine)
