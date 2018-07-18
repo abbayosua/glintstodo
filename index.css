@@ -3,22 +3,79 @@
         background-image: url(iphonex.png);
         background-repeat: no-repeat;
         background-position-x: 50%;
-
+        background-color: black;
     }
+
+/*
+jaga-jaga mungkin kepake
     table {
         padding-top: 3%;
         font-family: 'Open Sans';
     }
+*/
+    .keterangan{
+        position: absolute;
+        color: white;
+        padding-left: 13%;
+        margin-top: 1%;
+    }
+
     .buatcenter {
         margin: auto;
         width: 16em;
         padding-top: 2em;
     }
     h1{
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: Ruda;
+        margin-bottom: 0.3em;
+    }
+    h1:hover{
+        font-family: Ruda;
+        margin-bottom: 0.3em;
+        color: blueviolet;
+        transition: 100ms;
     }
     .container-activities {
         display: flex;
-        flex-direction: row;
-
+    }
+    .activities{
+        font-size: 1.01em;
+        margin-top: 0.3em;
+    }
+/* buat responsive-responsive-an */
+/* begin */
+    @media only screen and (max-width: 1100px) {
+        body {
+        background-image: url(iphone6.png);
+        background-color: black;
+        }
+        .buatcenter {
+            margin: auto;
+            width: 16.4em;
+            padding-top: 6.9em;
+        }
+        .keterangan{
+            position: absolute;
+            color: white;
+            padding-left: 2em;
+            margin-top: 1.6em;
+        }
+    }
+    @media only screen and (max-width: 900px) {
+        body {
+        background-image: url(iphone6.png);
+        background-color: black;
+        }
+        .buatcenter {
+            margin: auto;
+            width: 16.4em;
+            padding-top: 6.9em;
+        }
+        .keterangan{
+            visibility: hidden;
+            position: absolute;
+            color: white;
+            padding-left: 2em;
+            margin-top: 1.6em;
+        }
     }
