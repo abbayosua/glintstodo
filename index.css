@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Ruda');
+    body {
+        background-image: url(iphonex.png);
+        background-repeat: no-repeat;
+        background-position-x: 50%;
+
+    }
+    table {
+        padding-top: 3%;
+        font-family: 'Open Sans';
+    }
+    .buatcenter {
+        margin: auto;
+        width: 16em;
+        padding-top: 2em;
+    }
+    h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .container-activities {
+        display: flex;
+        flex-direction: row;
+
+    }
