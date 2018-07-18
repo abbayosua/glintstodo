@@ -6,18 +6,16 @@
         background-color: black;
     }
 
-/*
-jaga-jaga mungkin kepake
-    table {
-        padding-top: 3%;
-        font-family: 'Open Sans';
-    }
-*/
     .keterangan{
         position: absolute;
         color: white;
         padding-left: 13%;
         margin-top: 1%;
+    }
+
+    .downloadbutton {
+        height: 10%;
+        width: 10%;
     }
 
     .buatcenter {
@@ -44,39 +42,45 @@ jaga-jaga mungkin kepake
     }
 /* buat responsive-responsive-an */
 /* begin */
-    @media only screen and (max-width: 1100px) {
+    @media only screen and (max-width: 850px) {
         body {
         background-image: url(iphone6.png);
         background-color: black;
-        }
-        .buatcenter {
-            margin: auto;
-            width: 16.4em;
-            padding-top: 8em;
-        }
-        .keterangan{
-            position: absolute;
-            color: white;
-            padding-left: 2em;
-            margin-top: 1.6em;
-            transition: 0.6s;
-        }
-    }
-    @media only screen and (max-width: 950px) {
-        body {
-        background-image: url(iphone6.png);
-        background-color: black;
-        }
-        .buatcenter {
-            margin: auto;
-            width: 16.4em;
-            padding-top: 6.9em;
         }
         .keterangan{
             position: absolute;
             color: white;
             padding-left: 1em;
-            margin-top: 40.6em;
+            margin-top: 7em;
             transition: 0.6s;
+        }
+        .buatcenter {
+            margin: auto;
+            width: 16.4em;
+            padding-top: 7em;
+        }
+        
+    }
+    @media only screen and (max-width: 650px) {
+        body {
+        background-image: url(iphone6.png);
+        background-color: black;
+        }
+        .buatcenter {
+            margin: auto;
+            width: 16.4em;
+            padding-top: em;
+        }
+        .keterangan{
+            position: absolute;
+            color: white;
+            padding-left: 1em;
+            margin-top: 36em;
+            padding-top: 4em;
+            transition: 0.6s;
+        }
+        .downloadbutton {
+            height: 30%;
+            width: 30%;
         }
     }
