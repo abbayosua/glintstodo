@@ -52,16 +52,17 @@ jaga-jaga mungkin kepake
         .buatcenter {
             margin: auto;
             width: 16.4em;
-            padding-top: 6.9em;
+            padding-top: 8em;
         }
         .keterangan{
             position: absolute;
             color: white;
             padding-left: 2em;
             margin-top: 1.6em;
+            transition: 0.6s;
         }
     }
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 950px) {
         body {
         background-image: url(iphone6.png);
         background-color: black;
@@ -72,10 +73,10 @@ jaga-jaga mungkin kepake
             padding-top: 6.9em;
         }
         .keterangan{
-            visibility: hidden;
             position: absolute;
             color: white;
-            padding-left: 2em;
-            margin-top: 1.6em;
+            padding-left: 1em;
+            margin-top: 40.6em;
+            transition: 0.6s;
         }
     }
