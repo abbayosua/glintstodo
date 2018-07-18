@@ -69,7 +69,7 @@
         .buatcenter {
             margin: auto;
             width: 16.4em;
-            padding-top: em;
+            padding-top: 7em;
         }
         .keterangan{
             position: absolute;
@@ -82,5 +82,29 @@
         .downloadbutton {
             height: 30%;
             width: 30%;
+        }
+    }
+    @media only screen and (max-width: 320px) {
+        body {
+        background-image: url(iphone6.png);
+        background-color: black;
+        }
+        .buatcenter {
+            margin: auto;
+            width: 16.4em;
+            padding-top: 7em;
+        }
+        .keterangan{
+            position: absolute;
+            color: white;
+            padding-left: 3em;
+            margin-top: 36em;
+            padding-top: 4em;
+            transition: 0.6s;
+        }
+        .downloadbutton {
+            height: 50%;
+            width: 50%;
+            padding-left: 1.3em;
         }
     }
