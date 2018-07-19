@@ -215,18 +215,40 @@ body {
     }
 
     @media only screen and (max-width: 370px) {
-        body {
-        background-image: url(iphone6.png);
-        background-color: black;
-        }
         .getitnow{
             position: absolute;
             color: white;
-            margin-top: 42em;
-            margin-left: 17%;
+            margin-top: 35em;
+            margin-left: 3em;
             padding-top: 4em;
             transition: 0.6s;
             text-align: center;
+        }
+        .centeredcontent {
+            margin-left: 75px;
+        }
+        .iphonebackground {
+            background-image: url(nokia3310.png);
+            background-repeat: no-repeat;
+            background-size: 37em;
+        }
+        #apptitle {
+            font-size: 21px;
+            margin-top: 61px;
+        }
+        .inputactivity {
+            width: 10em;
+            height: 1em;
+        }
+        .inputactivity::placeholder {
+            font-size: 8px;
+        }
+        .buttonactivity {
+            font-size: 10px;
+            margin-left: -30px;
+        }
+        .container-activities {
+            font-size: 8px;
         }
         .downloadbutton {
             height: 2em;
