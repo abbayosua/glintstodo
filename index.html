@@ -3,12 +3,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    
     <title>Glints To Do App</title>
 </head>
 <body>
-    <div class="keterangan">
+    <div class="getitnow">
+        
         <h1 class="animated bounce">Get it now!</h1>
         
         <p>Download it only on</p>
@@ -16,36 +20,21 @@
         <img src="appstorebadge.png" alt="appstorebadge" class="downloadbutton">
         <img src="googleplaybadge.png" alt="" class="downloadbutton">
         </div>
-    </div>
-    <div class="buatcenter">
-        <h1 class="animated tada">Glints <br> To Do</h1>
 
-            <div class="container-input">
-                    <input type="text" placeholder="whatsaupniggas" size="15em"> 
-                    <button disabled>+</button>
-            </div>
-        
-            <div class="container-activities">
-                <div style="flex-basis: 6em;" class="activities">
-                    Doing Shit
-                </div>
-                <div style="flex-basis: 6.5em;">
-                    <button>⏰</button>
-                </div>
-                <div>
-                    <button>❌</button>
-                </div>
-            </div>
-            <div class="container-activities">
-                <div style="flex-basis: 6em;" class="activities">
-                    Doing Shit
-                </div>
-                <div style="flex-basis: 6.5em;">
-                    <button>⏰</button>
-                </div>
-                <div>
-                    <button>❌</button>
-                </div>
+    </div>
+    <div class="iphonebackground">
+            <div class="centeredcontent">
+                <h1 class="animated tada" id="apptitle">Glints <br> To Do</h1>
+
+                    <div class="container-input">
+                            <input type="text" placeholder="whatsaupniggas" size="15em" class="inputactivity"> 
+                            <button onclick="addactivity()" class="buttonactivity">➕</button>
+                    </div>
+                        <div class="container-activities">
+                            <div id="activities">
+
+                            </div>
+                        </div>
             </div>
     </div>
 </body>

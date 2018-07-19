@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Ruda');
     body {
+    background-image: url(mountainbackground.png);
+    background-repeat: no-repeat;
+    background-size: 100em;
+    }
+    .iphonebackground {
         background-image: url(iphonex.png);
         background-repeat: no-repeat;
         background-position-x: 50%;
-        background-color: black;
     }
-
-    .keterangan{
+    .getitnow{
         position: absolute;
         color: white;
         padding-left: 13%;
@@ -14,14 +17,18 @@
     }
 
     .downloadbutton {
-        height: 10%;
-        width: 10%;
+        height: 2em;
     }
 
-    .buatcenter {
+    .centeredcontent {
+        width: 20em;
+        padding-top: 3em;
+        padding-bottom: 36em;
+        padding-left: 0.6em;
         margin: auto;
-        width: 16em;
-        padding-top: 2em;
+    }
+    #apptitle {
+        text-shadow: 0.2px 1.5px 2px black;
     }
     h1{
         font-family: Ruda;
@@ -33,55 +40,75 @@
         color: blueviolet;
         transition: 100ms;
     }
-    .container-activities {
-        display: flex;
+    .inputactivity {
+        width: 18.5em;
+        height: 2em;
+        border-radius: 8px;
+        border: 1px solid black;
+        padding-left: 10px;
+        box-shadow:  0.2px 0.2px 2px black;
     }
-    .activities{
-        font-size: 1.01em;
-        margin-top: 0.3em;
+    .buttonactivity {
+        display: inline;
+        background: none;
+        border: none;
+        margin-left: -35px;
+    }
+    .container-activities {
+        padding-top: 0.66em;
+    }
+    #activities {
+        font-size: 1em;
     }
 /* buat responsive-responsive-an */
 /* begin */
-    @media only screen and (max-width: 850px) {
+    @media only screen and (max-width: 1000px) {
         body {
-        background-image: url(iphone6.png);
-        background-color: black;
+            background-image: url(mountainbackground.png);
+            background-repeat: no-repeat;
+            background-size: 100em;
         }
-        .keterangan{
+        .iphonebackground {
+            background-image: url(iphonex.png);
+            background-repeat: no-repeat;
+            background-position-x: 50%;
+        }
+        .getitnow{
             position: absolute;
             color: white;
             padding-left: 1em;
             margin-top: 7em;
             transition: 0.6s;
         }
-        .buatcenter {
-            margin: auto;
-            width: 16.4em;
-            padding-top: 7em;
-        }
         
     }
     @media only screen and (max-width: 650px) {
         body {
-        background-image: url(iphone6.png);
-        background-color: black;
+            background-image: none;
+            background-color: black;
+            background-repeat: no-repeat;
+            background-size: 100em;
+            transition: 700ms;
         }
-        .buatcenter {
-            margin: auto;
-            width: 16.4em;
-            padding-top: 7em;
+        .iphonebackground {
+            background-image: url(iphonex.png);
+            background-repeat: no-repeat;
+            background-position-x: 50%;
         }
-        .keterangan{
+        .getitnow{
             position: absolute;
             color: white;
-            padding-left: 1em;
-            margin-top: 36em;
+            margin-left: 0px;
+            padding-left: 0px;
+            margin-top: 42em;
             padding-top: 4em;
             transition: 0.6s;
+            text-align: center;
         }
         .downloadbutton {
-            height: 30%;
-            width: 30%;
+            height: 50%;
+            width: 50%;
+            padding-left: 0px;
         }
     }
     @media only screen and (max-width: 320px) {
@@ -89,22 +116,19 @@
         background-image: url(iphone6.png);
         background-color: black;
         }
-        .buatcenter {
-            margin: auto;
-            width: 16.4em;
-            padding-top: 7em;
-        }
-        .keterangan{
+        .getitnow{
             position: absolute;
             color: white;
-            padding-left: 3em;
-            margin-top: 36em;
+            margin-left: 0px;
+            padding-left: 0px;
+            margin-top: 42em;
             padding-top: 4em;
             transition: 0.6s;
+            text-align: center;
         }
         .downloadbutton {
             height: 50%;
             width: 50%;
-            padding-left: 1.3em;
+            padding-left: 0px;
         }
     }
