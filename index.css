@@ -1,113 +1,118 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Ruda');
-    
-    body {
-    background-image: url(mountainbackground.png);
+body {
+    background-image: url('images/mountainbackground.png');
     background-repeat: no-repeat;
     background-size: 100em;
-    }
+}
 
-    .getitnow{
-        position: absolute;
-        color: white;
-        padding-left: 13%;
-        margin-top: 1%;
-        visibility: hidden;
-    }
+.getitnow {
+    position: absolute;
+    color: white;
+    padding-left: 13%;
+    margin-top: 1%;
+    visibility: hidden;
+}
 
-    .downloadbutton {
-        height: 2em;
-    }
+.downloadbutton {
+    height: 2em;
+}
 
-    .centeredcontent {
-        width: 30em;
-        padding-top: 3em;
-        padding-bottom: 36em;
-        margin: auto;
-    }
-    #apptitle {
-        text-shadow: 0.2px 1.5px 2px black;
-    }
-    .glintstodologo {
-        width: 30em;
-        margin-left: -18px;
-        margin-bottom: -81px;
-        margin-top: 122px;
-        transition: 1s;
-    }
-    .centeredcontent:hover > .glintstodologo {
-        content: url(whatdoyouwanttodo.png);
-    }
-    h1{
-        font-family: Ruda;
-        margin-bottom: 0.3em;
-        visibility: hidden;
-    }
-    h1:hover{
-        font-family: Ruda;
-        margin-bottom: 0.3em;
-        color: blueviolet;
-        transition: 100ms;
-    }
-    .inputactivity {
-        width: 28em;
-        height: 2em;
-        border-radius: 8px;
-        border: 1px solid black;
-        padding-left: 10px;
-        box-shadow:  0.2px 0.2px 2px black;
-    }
-    .buttonactivity {
-        display: inline;
-        background: none;
-        border: none;
-        margin-left: -45px;
-    }
-    .container-activities {
-        margin-top: 0.56em;
-        background-color: rgba(255, 255, 255, 0.5);
-        padding-top: 0.2em;
-        padding-left: 8px;
-        width: 27.9em;
-        border-radius: 7px;
-    }
-    .container-activities:hover {
-        margin-top: 0.56em;
-        background-color: rgba(255, 255, 255, 1);
-        padding-top: 0.2em;
-        padding-left: 8px;
-        width: 27.9em;
-        border-radius: 7px;
-        transition: 0.5s;
-    }
-    #activities {
-        font-size: 1em;
-    }
+.centeredcontent {
+    width: 30em;
+    padding-top: 3em;
+    padding-bottom: 36em;
+    margin: auto;
+}
+
+#apptitle {
+    text-shadow: 0.2px 1.5px 2px black;
+}
+
+.glintstodologo {
+    width: 30em;
+    margin-left: -18px;
+    margin-bottom: -81px;
+    margin-top: 122px;
+    transition: 1s;
+}
+
+h1 {
+    font-family: Ruda;
+    margin-bottom: 0.3em;
+    visibility: hidden;
+}
+
+h1:hover {
+    font-family: Ruda;
+    margin-bottom: 0.3em;
+    color: blueviolet;
+    transition: 100ms;
+}
+
+.inputactivity {
+    width: 28em;
+    height: 2em;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding-left: 10px;
+    box-shadow: 0.2px 0.2px 2px black;
+}
+
+.buttonactivity {
+    display: inline;
+    background: none;
+    border: none;
+    margin-left: -45px;
+}
+
+.container-activities {
+    margin-top: 0.56em;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-top: 0.2em;
+    padding-left: 8px;
+    width: 27.9em;
+    border-radius: 7px;
+}
+
+.container-activities:hover {
+    margin-top: 0.56em;
+    background-color: rgba(255, 255, 255, 1);
+    padding-top: 0.2em;
+    padding-left: 8px;
+    width: 27.9em;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+
+#activities {
+    font-size: 1em;
+}
 
 /* Responsive CSS Begin */
+
 /* begin */
+
 @media only screen and (max-width: 1000px) {
     body {
-    background-image: url(mountainbackground.png);
-    background-repeat: no-repeat;
-    background-size: 100em;
+        background-image: url('images/mountainbackground.png');
+        background-repeat: no-repeat;
+        background-size: 100em;
     }
     .iphonebackground {
-        background-image: url(iphonex.png);
+        background-image: url('images/iphonex.png');
         background-repeat: no-repeat;
         background-position-x: 50%;
     }
-    .getitnow{
+    .getitnow {
         visibility: visible;
         position: absolute;
         color: white;
         padding-left: 13%;
         margin-top: 1%;
     }
-
     .downloadbutton {
         height: 2em;
     }
-
     .centeredcontent {
         width: 20em;
         padding-top: 3em;
@@ -122,12 +127,12 @@
         width: 0em;
         transition: 0.5s;
     }
-    h1{
+    h1 {
         font-family: Ruda;
         margin-bottom: 0.3em;
         visibility: visible;
     }
-    h1:hover{
+    h1:hover {
         font-family: Ruda;
         margin-bottom: 0.3em;
         color: blueviolet;
@@ -139,7 +144,7 @@
         border-radius: 8px;
         border: 1px solid black;
         padding-left: 10px;
-        box-shadow:  0.2px 0.2px 2px black;
+        box-shadow: 0.2px 0.2px 2px black;
     }
     .buttonactivity {
         display: inline;
@@ -168,110 +173,111 @@
     }
 }
 
-    @media only screen and (max-width: 1000px) {
-        body {
-            background-image: url(mountainbackground.png);
-            background-repeat: no-repeat;
-            background-size: 100em;
-        }
-        .iphonebackground {
-            background-image: url(iphonex.png);
-            background-repeat: no-repeat;
-            background-position-x: 50%;
-        }
-        .getitnow{
-            position: absolute;
-            color: white;
-            padding-left: 1em;
-            margin-top: 7em;
-            transition: 0.6s;
-        }
-        
+@media only screen and (max-width: 1000px) {
+    body {
+        background-image: url('images/mountainbackground.png');
+        background-repeat: no-repeat;
+        background-size: 100em;
     }
-    @media only screen and (max-width: 650px) {
-        body {
-            background-image: none;
-            background-color: black;
-            background-repeat: no-repeat;
-            background-size: 100em;
-            transition: 700ms;
-        }
-        .iphonebackground {
-            background-image: url(iphonex.png);
-            background-repeat: no-repeat;
-            background-position-x: 50%;
-        }
-        .getitnow{
-            position: absolute;
-            color: white;
-            margin-top: 42em;
-            margin-left: 19%;
-            padding-top: 4em;
-            transition: 0.6s;
-        }
-        .downloadbutton {
-            height: 2em;
-            padding-left: 0px;
-        }
+    .iphonebackground {
+        background-image: url('images/iphonex.png');
+        background-repeat: no-repeat;
+        background-position-x: 50%;
     }
-    @media only screen and (max-width: 450px) {
-        body {
-        background-image: url(iphone6.png);
-        background-color: black;
-        }
-        .getitnow{
-            position: absolute;
-            color: white;
-            margin-top: 42em;
-            margin-left: 17%;
-            padding-top: 4em;
-            transition: 0.6s;
-            text-align: center;
-        }
-        .downloadbutton {
-            height: 2em;
-            padding-left: 0px;
-        }
+    .getitnow {
+        position: absolute;
+        color: white;
+        padding-left: 1em;
+        margin-top: 7em;
+        transition: 0.6s;
     }
+}
 
-    @media only screen and (max-width: 370px) {
-        .getitnow{
-            position: absolute;
-            color: white;
-            margin-top: 35em;
-            margin-left: 3em;
-            padding-top: 4em;
-            transition: 0.6s;
-            text-align: center;
-        }
-        .centeredcontent {
-            margin-left: 75px;
-        }
-        .iphonebackground {
-            background-image: url(nokia3310.png);
-            background-repeat: no-repeat;
-            background-size: 37em;
-        }
-        #apptitle {
-            font-size: 21px;
-            margin-top: 61px;
-        }
-        .inputactivity {
-            width: 10em;
-            height: 1em;
-        }
-        .inputactivity::placeholder {
-            font-size: 8px;
-        }
-        .buttonactivity {
-            font-size: 10px;
-            margin-left: -30px;
-        }
-        .container-activities {
-            font-size: 8px;
-        }
-        .downloadbutton {
-            height: 2em;
-            padding-left: 0px;
-        }
+@media only screen and (max-width: 650px) {
+    body {
+        background-image: none;
+        background-color: black;
+        background-repeat: no-repeat;
+        background-size: 100em;
+        transition: 700ms;
     }
+    .iphonebackground {
+        background-image: url('images/iphonex.png');
+        background-repeat: no-repeat;
+        background-position-x: 50%;
+    }
+    .getitnow {
+        position: absolute;
+        color: white;
+        margin-top: 42em;
+        margin-left: 19%;
+        padding-top: 4em;
+        transition: 0.6s;
+    }
+    .downloadbutton {
+        height: 2em;
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    body {
+        background-image: url('images/iphone6.png');
+        background-color: black;
+    }
+    .getitnow {
+        position: absolute;
+        color: white;
+        margin-top: 42em;
+        margin-left: 17%;
+        padding-top: 4em;
+        transition: 0.6s;
+        text-align: center;
+    }
+    .downloadbutton {
+        height: 2em;
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .getitnow {
+        position: absolute;
+        color: white;
+        margin-top: 35em;
+        margin-left: 3em;
+        padding-top: 4em;
+        transition: 0.6s;
+        text-align: center;
+    }
+    .centeredcontent {
+        margin-left: 75px;
+    }
+    .iphonebackground {
+        background-image: url('images/nokia3310.png');
+        background-repeat: no-repeat;
+        background-size: 37em;
+    }
+    #apptitle {
+        font-size: 21px;
+        margin-top: 61px;
+    }
+    .inputactivity {
+        width: 10em;
+        height: 1em;
+    }
+    .inputactivity::placeholder {
+        font-size: 8px;
+    }
+    .buttonactivity {
+        font-size: 10px;
+        margin-left: -30px;
+    }
+    .container-activities {
+        font-size: 8px;
+    }
+    .downloadbutton {
+        height: 2em;
+        padding-left: 0px;
+    }
+}

@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,36 +8,40 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
-    
+
     <title>Glints To Do App</title>
 </head>
+
 <body>
     <div class="getitnow">
-        
+
         <h1 class="animated bounce">Get it now!</h1>
-        
+
         <p>Download it only on</p>
         <div>
-        <img src="appstorebadge.png" alt="appstorebadge" class="downloadbutton">
-        <img src="googleplaybadge.png" alt="" class="downloadbutton">
+            <img src="images/appstorebadge.png" alt="appstorebadge" class="downloadbutton">
+            <img src="images/googleplaybadge.png" alt="" class="downloadbutton">
         </div>
 
     </div>
     <div class="iphonebackground">
-            <div class="centeredcontent">
-                <img src="glintstodologo.png" alt="glintstodologo" class="glintstodologo">
-                <h1 class="animated tada" id="apptitle">Glints <br> To Do</h1>
+        <div class="centeredcontent">
+            <img src="images/glintstodologo.png" alt="glintstodologo" class="glintstodologo">
+            <h1 class="animated tada" id="apptitle">Glints
+                <br> To Do</h1>
+            <form>
+                <div class="container-input">
+                    <input type="text" placeholder="Doing Good yeeeeeeeeeeeeeeeee" size="15em" class="inputactivity" tabindex="1">
+                    <button onclick="addactivity()" class="buttonactivity" tabindex="2">➕</button>
+                </div>
+            </form>
+            <div class="container-activities">
+                <div id="activities">
 
-                    <div class="container-input">
-                            <input type="text" placeholder="Doing Good yeeeeeeeeeeeeeeeee" size="15em" class="inputactivity" tabindex="1"> 
-                            <button onclick="addactivity()" class="buttonactivity" tabindex="2">➕</button>
-                    </div>
-                        <div class="container-activities">
-                            <div id="activities">
-
-                            </div>
-                        </div>
+                </div>
             </div>
+        </div>
     </div>
 </body>
+
 </html>
