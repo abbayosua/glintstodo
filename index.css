@@ -24,7 +24,7 @@
         width: 20em;
         padding-top: 3em;
         padding-bottom: 36em;
-        padding-left: 0.6em;
+        padding-left: 0.7em;
         margin: auto;
     }
     #apptitle {
@@ -98,20 +98,18 @@
         .getitnow{
             position: absolute;
             color: white;
-            margin-left: 0px;
-            padding-left: 0px;
             margin-top: 42em;
+            margin-left: 29%;
             padding-top: 4em;
             transition: 0.6s;
             text-align: center;
         }
         .downloadbutton {
-            height: 50%;
-            width: 50%;
+            height: 2em;
             padding-left: 0px;
         }
     }
-    @media only screen and (max-width: 320px) {
+    @media only screen and (max-width: 450px) {
         body {
         background-image: url(iphone6.png);
         background-color: black;
@@ -119,16 +117,14 @@
         .getitnow{
             position: absolute;
             color: white;
-            margin-left: 0px;
-            padding-left: 0px;
             margin-top: 42em;
+            margin-left: 17%;
             padding-top: 4em;
             transition: 0.6s;
             text-align: center;
         }
         .downloadbutton {
-            height: 50%;
-            width: 50%;
+            height: 2em;
             padding-left: 0px;
         }
     }
