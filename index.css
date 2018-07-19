@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Ruda');
     
-body {
+    body {
     background-image: url(mountainbackground.png);
     background-repeat: no-repeat;
     background-size: 100em;
     }
-    .iphonebackground {
-    }
+
     .getitnow{
         position: absolute;
         color: white;
@@ -33,7 +32,10 @@ body {
         margin-left: -18px;
         margin-bottom: -81px;
         margin-top: 122px;
-        transition: 0.5s;
+        transition: 1s;
+    }
+    .centeredcontent:hover > .glintstodologo {
+        content: url(whatdoyouwanttodo.png);
     }
     h1{
         font-family: Ruda;
@@ -67,6 +69,15 @@ body {
         padding-left: 8px;
         width: 27.9em;
         border-radius: 7px;
+    }
+    .container-activities:hover {
+        margin-top: 0.56em;
+        background-color: rgba(255, 255, 255, 1);
+        padding-top: 0.2em;
+        padding-left: 8px;
+        width: 27.9em;
+        border-radius: 7px;
+        transition: 0.5s;
     }
     #activities {
         font-size: 1em;
@@ -109,6 +120,7 @@ body {
     }
     .glintstodologo {
         width: 0em;
+        transition: 0.5s;
     }
     h1{
         font-family: Ruda;
@@ -136,6 +148,14 @@ body {
         margin-left: -35px;
     }
     .container-activities {
+        padding-top: 0.66em;
+        margin-top: 0.56em;
+        background-color: rgba(255, 255, 255, 0);
+        padding-left: 1px;
+        width: 20em;
+        border-radius: 7px;
+    }
+    .container-activities:hover {
         padding-top: 0.66em;
         margin-top: 0.56em;
         background-color: rgba(255, 255, 255, 0);
