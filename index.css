@@ -5,7 +5,7 @@ body {
     background-size: 100em;
 }
 
-.getitnow {
+.get_it_now {
     position: absolute;
     color: white;
     padding-left: 13%;
@@ -28,7 +28,7 @@ body {
     text-shadow: 0.2px 1.5px 2px black;
 }
 
-.glintstodologo {
+.glints_todologo {
     width: 30em;
     margin-left: -18px;
     margin-bottom: -81px;
@@ -84,7 +84,7 @@ h1:hover {
     transition: 0.5s;
 }
 
-#activities {
+.activities_list {
     font-size: 1em;
 }
 
@@ -103,7 +103,7 @@ h1:hover {
         background-repeat: no-repeat;
         background-position-x: 50%;
     }
-    .getitnow {
+    .get_it_now {
         visibility: visible;
         position: absolute;
         color: white;
@@ -123,7 +123,7 @@ h1:hover {
     #apptitle {
         text-shadow: 0.2px 1.5px 2px black;
     }
-    .glintstodologo {
+    .glints_todologo {
         width: 0em;
         transition: 0.5s;
     }
@@ -168,7 +168,7 @@ h1:hover {
         width: 20em;
         border-radius: 7px;
     }
-    #activities {
+    .activities_list {
         font-size: 1em;
     }
 }
@@ -184,7 +184,7 @@ h1:hover {
         background-repeat: no-repeat;
         background-position-x: 50%;
     }
-    .getitnow {
+    .get_it_now {
         position: absolute;
         color: white;
         padding-left: 1em;
@@ -206,7 +206,7 @@ h1:hover {
         background-repeat: no-repeat;
         background-position-x: 50%;
     }
-    .getitnow {
+    .get_it_now {
         position: absolute;
         color: white;
         margin-top: 42em;
@@ -225,7 +225,7 @@ h1:hover {
         background-image: url('images/iphone6.png');
         background-color: black;
     }
-    .getitnow {
+    .get_it_now {
         position: absolute;
         color: white;
         margin-top: 42em;
@@ -241,7 +241,7 @@ h1:hover {
 }
 
 @media only screen and (max-width: 370px) {
-    .getitnow {
+    .get_it_now {
         position: absolute;
         color: white;
         margin-top: 35em;
@@ -272,6 +272,9 @@ h1:hover {
     .buttonactivity {
         font-size: 10px;
         margin-left: -30px;
+    }
+    .formstyle {
+        margin-bottom: -8px;
     }
     .container-activities {
         font-size: 8px;
