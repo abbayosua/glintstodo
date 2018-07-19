@@ -1,4 +1,73 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Ruda');
+    
+body {
+    background-image: url(mountainbackground.png);
+    background-repeat: no-repeat;
+    background-size: 100em;
+    }
+    .iphonebackground {
+    }
+    .getitnow{
+        position: absolute;
+        color: white;
+        padding-left: 13%;
+        margin-top: 1%;
+        visibility: hidden;
+    }
+
+    .downloadbutton {
+        height: 2em;
+    }
+
+    .centeredcontent {
+        width: 30em;
+        padding-top: 3em;
+        padding-bottom: 36em;
+        margin: auto;
+    }
+    #apptitle {
+        text-shadow: 0.2px 1.5px 2px black;
+    }
+    .glintstodologo {
+        width: 30em;
+        margin-left: -18px;
+        margin-bottom: -81px;
+        margin-top: 122px;
+    }
+    h1{
+        font-family: Ruda;
+        margin-bottom: 0.3em;
+        visibility: hidden;
+    }
+    h1:hover{
+        font-family: Ruda;
+        margin-bottom: 0.3em;
+        color: blueviolet;
+        transition: 100ms;
+    }
+    .inputactivity {
+        width: 28em;
+        height: 2em;
+        border-radius: 8px;
+        border: 1px solid black;
+        padding-left: 10px;
+        box-shadow:  0.2px 0.2px 2px black;
+    }
+    .buttonactivity {
+        display: inline;
+        background: none;
+        border: none;
+        margin-left: -45px;
+    }
+    .container-activities {
+        padding-top: 0.66em;
+    }
+    #activities {
+        font-size: 1em;
+    }
+
+
+@media only screen and (max-width: 1000px) {
     body {
     background-image: url(mountainbackground.png);
     background-repeat: no-repeat;
@@ -10,6 +79,7 @@
         background-position-x: 50%;
     }
     .getitnow{
+        visibility: visible;
         position: absolute;
         color: white;
         padding-left: 13%;
@@ -30,9 +100,13 @@
     #apptitle {
         text-shadow: 0.2px 1.5px 2px black;
     }
+    .glintstodologo {
+        width: 0em;
+    }
     h1{
         font-family: Ruda;
         margin-bottom: 0.3em;
+        visibility: visible;
     }
     h1:hover{
         font-family: Ruda;
@@ -60,6 +134,7 @@
     #activities {
         font-size: 1em;
     }
+}
 /* buat responsive-responsive-an */
 /* begin */
     @media only screen and (max-width: 1000px) {

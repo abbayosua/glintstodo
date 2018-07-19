@@ -1,9 +1,11 @@
 # Glints To-Do
 
+### Mobile Mockup
 ![Glints To Do Interface Mock up Iphone X](todoscreenshot.png)
 
+### Web Mockup
+![Glints To Do Web Mock Up](webinterface.png)
 
-### Whatsup niggas
 This file is a documentation of Glints To-Do App, A simple app that make your life easier by schedule your activities faster and simple
 
 ## Live Preview
