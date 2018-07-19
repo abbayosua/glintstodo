@@ -185,7 +185,25 @@ body {
             position: absolute;
             color: white;
             margin-top: 42em;
-            margin-left: 23%;
+            margin-left: 19%;
+            padding-top: 4em;
+            transition: 0.6s;
+        }
+        .downloadbutton {
+            height: 2em;
+            padding-left: 0px;
+        }
+    }
+    @media only screen and (max-width: 450px) {
+        body {
+        background-image: url(iphone6.png);
+        background-color: black;
+        }
+        .getitnow{
+            position: absolute;
+            color: white;
+            margin-top: 42em;
+            margin-left: 17%;
             padding-top: 4em;
             transition: 0.6s;
             text-align: center;
@@ -195,7 +213,8 @@ body {
             padding-left: 0px;
         }
     }
-    @media only screen and (max-width: 450px) {
+
+    @media only screen and (max-width: 370px) {
         body {
         background-image: url(iphone6.png);
         background-color: black;
