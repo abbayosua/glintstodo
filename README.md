@@ -12,7 +12,7 @@ This file is a documentation of Glints To-Do App, A simple app that make your li
  - Figma Mobile Mockup [Here](https://www.figma.com/file/fFly3zWjaRFoFIMwVckHq3Cb/Glints-To-Do) 
  - Figma Web Mockup [Here](https://www.figma.com/proto/Sj4vqeVF5nWsxIg7CtfVb2cH/GlintsTodoWEB)
  - Github Pages [Here](https://abbayosua.github.io/glintstodo/)
-
+- Algorythm [Here](https://www.figma.com/file/F3ZRrJrSkv7fOAz7R8vz7zSO/Glints-To-do-Flowchart?node-id=0%3A1)
 
 
 ## Feature
