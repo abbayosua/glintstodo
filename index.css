@@ -2,7 +2,7 @@
 body {
     background-image: url('images/mountainbackground.png');
     background-repeat: no-repeat;
-    background-size: 100em;
+    background-size: 100%;
 }
 
 .get_it_now {
